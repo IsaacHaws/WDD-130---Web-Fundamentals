@@ -10,19 +10,21 @@ nav {
 a {
     color: white;
     margin: 40px;
+    font-size: 1.5em;
 }
 
 h1 {
     color: steelblue;
 }
 
-image {
-    width: 800px;
+img {
+    width: 80%;
     border: 4px solid steelblue;
 }
 
 p {
     padding: 10px;
+    width: 80%;
 }
 
 footer {
