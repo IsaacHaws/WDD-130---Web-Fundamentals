@@ -1,26 +1,45 @@
 body {
     background-color: pink;
-    text-align: center;
-   
-    
+    text-align: center; 
 }
 
 img {
-    width: 10%;
+    width: 15%;
     margin: auto;
 }
 
-
-
-.title, .upper-quote, .lower-quote {
+.title {
     color: white;
     max-width: 10%;
-    
-    
-    
+    margin: auto;
+} 
+
+.upper-quote {
+    color: white;
+    max-width: 400px;
+    margin: auto;
+ 
+} 
+
+.article-of-faith {
+    text-align: start;
+    margin: auto;
+    text-indent: 300px;
 }
 
-.title.hover {
+.lower-quote {
+    color: white;
+    max-width: 220px;
+    margin: auto;
+}
+
+.name {
+    margin: auto;
+    padding: 0%;
+    max-width: 200px;
+}
+
+.title:hover {
     color: black;
    
 }
