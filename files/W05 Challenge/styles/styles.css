@@ -1,18 +1,16 @@
 body {
-    margin: auto;
+    /*margin: 0 auto;*/
 }
 
 #upper-pic {
     display: block;
-    margin: 0;
-    
-    
+    width: 100%;
 }
 
-#lower-images, img {
+#lower-images {
     display: inline;
-    width: 30%;
-    margin: auto;
-    border: 50px solid rgb(99, 99, 99);
-    border-radius: 50%;
+    height: 20%;
+    margin: 0 auto;
+    /*border: 50px solid rgb(99, 99, 99);
+    border-radius: 50%;*/
 }
