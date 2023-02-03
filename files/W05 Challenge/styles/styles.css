@@ -2,25 +2,35 @@ body {
     margin: 0 auto;
 }
 
-#upper-pic {
+.upper-pic {
     display: block;
     width: 100%;
 }
 
-#title {
-    object-fit: cover;
+.upper-pic img {
     width: 100%;
 }
 
-#lower-images {
+.lower-images {
    background-color: gray;
+   width: 100%
 }
 
-#desk, #ice, #person {
+.lower-images img {
+    display: inline;
+    margin: 100px 135px;
+    width: 17%;
+    border: 15px solid rgb(99, 99, 99);
+    border-radius: 50%;
+}
+
+
+
+/*#desk, #ice, #person {
     display: inline;
     margin: 0 20px;
     width: 25%;
     background-color: gray;
     border: 10px solid rgb(99, 99, 99);
     border-radius: 50%;
-}
+}*/
