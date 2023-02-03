@@ -1,5 +1,5 @@
 body {
-    /*margin: 0 auto;*/
+    margin: 0 auto;
 }
 
 #upper-pic {
@@ -7,10 +7,20 @@ body {
     width: 100%;
 }
 
+#title {
+    object-fit: cover;
+    width: 100%;
+}
+
 #lower-images {
+   background-color: gray;
+}
+
+#desk, #ice, #person {
     display: inline;
-    height: 20%;
-    margin: 0 auto;
-    /*border: 50px solid rgb(99, 99, 99);
-    border-radius: 50%;*/
+    margin: 0 20px;
+    width: 25%;
+    background-color: gray;
+    border: 10px solid rgb(99, 99, 99);
+    border-radius: 50%;
 }
