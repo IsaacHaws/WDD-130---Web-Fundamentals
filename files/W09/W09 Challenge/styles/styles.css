@@ -1,33 +1,35 @@
-.body {
+body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(5, 1fr);
+    margin: 0 auto;
 }
 
 .background {
     grid-column: 1/4;
     grid-row: 1/6;
-    width: 100%;
-    height: 100%; 
     background-color: black;
 }
 
 img {
-    width: 100%;
     grid-column: 2/3;
     grid-row: 1/2;
+    width: 50%;
+    align-self: center;
+    
 }
 
 #card {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    
-} 
+    grid-template-rows: repeat(6, 1fr); */
+    align-self: center;
+}
 
 .text-box {
     background-color: white;
     color: gray;
+    text-align: center;
 }
 
 .color-text {
@@ -40,16 +42,17 @@ h1 {
 }
 
 #bottom-boxes {
-    /* display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr; */
+    grid-template-rows: 1fr;
     background-color: rgb(32, 78, 165);
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    
 }
 
-.box-1 {
+/* .box-1 {
     grid-column: 1/2;
     grid-row: 1/2;
 }
@@ -62,4 +65,4 @@ h1 {
 .box-3 {
     grid-column: 3/4;
     grid-row: 1/2;
-}
+} */
