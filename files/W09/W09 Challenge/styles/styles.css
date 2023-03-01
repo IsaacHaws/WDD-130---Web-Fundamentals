@@ -1,40 +1,33 @@
 body {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    margin: 0 auto;
+    background: black;
 }
 
-.background {
-    grid-column: 1/4;
-    grid-row: 1/6;
-    background-color: black;
-}
-
-img {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 50%;
-    align-self: center;
+.container {
+    margin: auto;
+    width: 30%;
+    border-radius: 20px;
     
 }
 
-#card {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(6, 1fr); */
-    align-self: center;
+.building-img {
+    margin-top: 0;
+    background-image: url(../images/w09_ice_img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .text-box {
     background-color: white;
     color: gray;
     text-align: center;
+    margin-top: 0;
 }
 
 .color-text {
     color: blue;
     line-height: 20px;
+    margin-top: 0;
 }
 
 h1 {
