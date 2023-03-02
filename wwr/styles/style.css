@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500&family=RocknRoll+One&family=Tourney&family=Work+Sans&display=swap');
 
 body {
     background-color: whitesmoke;
@@ -121,6 +121,8 @@ h4 {
 .page-title {
     text-align: center;
     color: black;
+    font-family: "RocknRoll One", "OpenSans";
+    font-size: 20px;
 }
 
 .title-line {
@@ -128,7 +130,6 @@ h4 {
     height: 15px;
     margin-left: 250px;
     margin-right: 250px;
-
 }
 
 .river-grid {
@@ -136,35 +137,69 @@ h4 {
     margin-right: 60px;
 }
 
+.title {
+    font-family: "RocknRoll One", "OpenSans";
+
+} 
+
 .info-line {
     background-color: #2E4057;
-    height: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
+    height: 50px;
+    margin: 60px 0 80px 0;
 }
 
-.button-box2 {
+.river1 img {
+    float: left;
+    margin: 0 25px;
+    border-radius: 5px;
+}
+
+.river2 img {
+    float: right;
+    margin: 0 25px;
+    border-radius: 5px;
+}
+
+.river1 p, .river2 p {
+    font-family: "Raleway", "OpenSans";
+    line-height: 45px;
+    font-size: 18px;
+}
+
+.river3 img {
+    border-radius: 10px;
+}
+
+.river3 p {
+    font-family: "Raleway", "OpenSans";
+    line-height: 45px;
+    font-size: 18px;
+}
+
+
+.btn1, .btn2, .btn3 {
     background-color: #2E4057;
-    height: 50px;
-    width: 140px;
     font-size: 25px;
     font-family: "RocknRoll", "OpenSans";
-    border: 5px solid black;
     border-radius: 10px;
-    margin-top: 0 0;
+    border:5px solid black;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 40px; 
 }
 
-.canyon-button{
-    background-color: #2E4057;
-    height: 50px;
-    width: 300px;
-    font-size: 25px;
-    font-family: "RocknRoll", "OpenSans";
-    border: 5px solid black;
-    border-radius: 10px;
+.btn1 {
+    margin-left: 600px;
 }
 
-    
+.btn2 {
+    margin-right: 700px;
+}
+
+.btn3 {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
 
 .icon {
     width: 80px;
@@ -247,7 +282,7 @@ main section img {
 footer {
     background-color: #2E4057;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
