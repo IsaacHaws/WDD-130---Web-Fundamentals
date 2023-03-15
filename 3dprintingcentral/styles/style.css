@@ -7,7 +7,7 @@ body {
 header {
     background-color: rgb(51, 134, 211);
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: auto;
 }
 
 nav {
@@ -17,11 +17,64 @@ nav {
     padding-bottom: 10px;
 }
 
-
-
 .logo {
     padding: 5px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+}
+
+.main_body {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 200px auto;
+    margin: auto 100px;
+    text-align: center;
+}
+
+.page_title {
+    font-size: 30px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0;
+}
+
+.header_line {
+    background-color: grey;
+    max-width: 400px;
+    height: 3px;
+    grid-column: 2/3;
+    grid-row: 1/2;
     
+}
+
+.home_text {
+    font-size: 20px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0;
+}
+
+.button_box {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    max-width: 50px;
+    max-height: 20px;
+    color: black;
+}
+
+.printer_pic1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+    float: right;
+}
+
+.printer_pic2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+    float: left;
 }
 
 footer {
@@ -30,8 +83,6 @@ footer {
     justify-content: space-around;
     padding: 5px 50px;
     background-color: rgb(51, 134, 211);
-    
-    
 }
 
 footer p {
