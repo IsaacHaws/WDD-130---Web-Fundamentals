@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500&family=RocknRoll+One&family=Tourney&family=Work+Sans&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #145C9E;
+    --secondary-color: #0B4F6C;
+    --accent1-color: #909590;
+    --accent2-color: #1F271B;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "RocknRoll One";
+    --paragraph-font: "Raleway", "Work-Sans", "Open-Sans";
+
+}
+
 body {
     background-color: whitesmoke;
     padding: 0;
@@ -5,7 +20,7 @@ body {
 }
 
 header {
-    background-color: rgb(51, 134, 211);
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: auto;
 }
@@ -14,67 +29,84 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: flex-end; 
-    padding-bottom: 10px;
+    padding-bottom: 18px;
+    padding-top: 7px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: var(--paragraph-font);
+
 }
 
 .logo {
     padding: 5px;
     border-radius: 30px;
     display: block;
-    margin: auto;
+    margin: 10px auto;
 }
 
-.main_body {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-template-rows: 200px auto;
-    margin: auto 100px;
+main {
+    margin: 100px;
+    margin-top: 45px;
+    margin-bottom: 200px;
     text-align: center;
+    
 }
 
 .page_title {
     font-size: 30px;
-    grid-column: 2/3;
-    grid-row: 1/2;
     margin: 0;
+    text-align: center;
+    font-family: var(--heading-font);
+
 }
 
 .header_line {
-    background-color: grey;
+    background-color: var(--accent2-color);
     max-width: 400px;
     height: 3px;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    
-}
+    margin: 5px auto;
+} 
 
 .home_text {
-    font-size: 20px;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    font-size: 23px;
     margin: 0;
+    margin: 40px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: var(--accent1-color);
+    border: 2px black solid;
+    margin: 10px 410px;
+    min-width: 200px;
+}
+
+.button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--heading-font);
 }
 
 .button_box {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    max-width: 50px;
-    max-height: 20px;
+    margin: 25px; 
     color: black;
 }
 
-.printer_pic1 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    padding: 10px;
-    float: right;
+.home_images {
+    margin: 100px auto;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
 }
 
-.printer_pic2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    padding: 10px;
-    float: left;
+.home_images img {
+    width: 100%;
 }
 
 footer {
@@ -82,7 +114,16 @@ footer {
     height: 110px;
     justify-content: space-around;
     padding: 5px 50px;
-    background-color: rgb(51, 134, 211);
+    background-color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--paragraph-font);
+    font-size: 18px;
 }
 
 footer p {
