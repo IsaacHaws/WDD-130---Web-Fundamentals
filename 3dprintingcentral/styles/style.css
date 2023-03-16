@@ -82,8 +82,8 @@ main {
     padding: 10px 20px;
     background-color: var(--accent1-color);
     border: 2px black solid;
-    margin: 10px 410px;
-    min-width: 200px;
+    margin: 10px 42%;
+    
 }
 
 .button a {
