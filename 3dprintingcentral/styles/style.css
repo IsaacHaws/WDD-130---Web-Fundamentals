@@ -57,6 +57,12 @@ main {
     
 }
 
+.main_content {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 80px 1fr 1fr;
+}
+
 .page_title {
     font-size: 30px;
     margin: 0;
@@ -76,6 +82,17 @@ main {
     font-size: 23px;
     margin: 0;
     margin: 40px;
+    font-family: var(--paragraph-font);
+}
+
+.basics_text {
+    font-size: 23px;
+    margin: 0;
+    margin: 40px;
+    font-family: var(--paragraph-font);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
 }
 
 .button {
@@ -90,7 +107,7 @@ main {
     font-size: 20px;
     text-decoration: none;
     color: black;
-    font-family: var(--heading-font);
+    font-family: var(--heading-font), var(--paragraph-font);
 }
 
 .button_box {
@@ -107,6 +124,36 @@ main {
 
 .home_images img {
     width: 100%;
+}
+
+.basics_pic1 {
+    float: left;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+
+.basics_pic2 {
+    float: right; 
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+
+.creality_pic {
+    border: 2px black solid;
+    width: 16%;
+}
+
+.creality_button {
+    background-color: var(--accent1-color);
+}
+
+.creality_button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--heading-font), var(--paragraph-font);
 }
 
 footer {
