@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500&family=RocknRoll+One&family=Tourney&family=Work+Sans&display=swap');
+
 .container {
     position: relative;
     width: 50%;
@@ -5,8 +7,9 @@
   
   .image {
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
+    border-radius: 15px;
   }
   
   .overlay {
@@ -16,10 +19,11 @@
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 50%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #3f1a05;
+    border-radius: 15px;
   }
   
   .container:hover .overlay {
@@ -29,6 +33,7 @@
   .text {
     color: white;
     font-size: 20px;
+    font-family: "RocknRoll One";
     position: absolute;
     top: 50%;
     left: 50%;
