@@ -4,6 +4,10 @@
     position: relative;
     width: 50%;
   }
+
+p {
+  font-family: "Raleway";
+}
   
   .image {
     display: block;
@@ -22,7 +26,7 @@
     width: 50%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #3f1a05;
+    background-color: #0890cf;
     border-radius: 15px;
   }
   
